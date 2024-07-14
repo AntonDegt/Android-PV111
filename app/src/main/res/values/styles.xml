@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calc_btn" >
+        <item name="backgroundTint">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/calc_primary_color</item>
+    </style>
+    <style name="calc_operation_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_oper_btn_shape</item>
+    </style>
+    <style name="calc_digit_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_digit_btn_shape</item>
+    </style>
+    <style name="calc_equal_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_equal_btn_shape</item>
+    </style>
+
+    <!--TTT-->
+    <style name="ttt_btn" >
+        <item name="backgroundTint">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/ttt_primary_color</item>
+    </style>
+    <style name="ttt_field_btn" parent="ttt_btn">
+        <item name="android:background">@drawable/ttt_btn_shape</item>
+    </style>
+    <style name="ttt_field_btn_x" parent="ttt_field_btn">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/ttt_X_score_color</item>
+    </style>
+    <style name="ttt_field_btn_o" parent="ttt_field_btn">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/ttt_O_score_color</item>
+    </style>
+    <!--THE-SNAKE-->
+    <style name="the_snake_labels">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

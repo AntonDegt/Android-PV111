@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">PVapp</string>
+    <!--region MAIN ACTIVITY-->
+    <string name="main_page_title">Getting to know Android</string>
+    <string name="main_calc_button">Calculator</string>
+    <string name="main_ttt_button">TicTacToe</string>
+    <string name="main_the_snake_button">TheSnake</string>
+    <string name="main_rates_button">Rates</string>
+    <string name="main_chat_button">Chat</string>
+    <string name="main_anim_button">Animation</string>
+    <!--endregion-->
+    <!--region CALC ACTIVITY-->
+    <string name="calc_page_title">Calculator</string>
+    <string name="calc_btn_percent">%</string>
+    <string name="calc_btn_ce">CE</string>
+    <string name="calc_btn_c">C</string>
+    <string name="calc_btn_backspace">\u232B</string>
+    <string name="calc_btn_inverse">\u00B9/\u2093</string>
+    <string name="calc_btn_square">x\u00B2</string>
+    <string name="calc_btn_sqrt">\u221A\u2093\u0304</string>
+    <string name="calc_btn_divide">\u00F7</string>
+    <string name="calc_btn_multiply">\u00D7</string>
+    <string name="calc_btn_plus">\u002B</string>
+    <string name="calc_btn_minus">\u2212</string>
+    <string name="calc_btn_pm">\u00B1</string>
+    <string name="calc_btn_comma">\u002C</string>
+    <string name="calc_btn_equal">\u003D</string>
+    <string name="calc_btn_0">0</string>
+    <string name="calc_btn_1">1</string>
+    <string name="calc_btn_2">2</string>
+    <string name="calc_btn_3">3</string>
+    <string name="calc_btn_4">4</string>
+    <string name="calc_btn_5">5</string>
+    <string name="calc_btn_6">6</string>
+    <string name="calc_btn_7">7</string>
+    <string name="calc_btn_8">8</string>
+    <string name="calc_btn_9">9</string>
+    <!--endregion-->
+    <!--region TTT-->
+    <string name="ttt_page_title">TicTacToe</string>
+    <string name="ttt_time_template">%d c</string>
+    <string name="ttt_ad_title">%s Won</string>
+    <string name="ttt_ad_message">Wana play again?</string>
+    <string name="ttt_pb">Yes</string>
+    <string name="ttt_nb">No</string>
+
+    <!--endregion-->
+    <!--THE-SNAKE-->
+    <string name="the_snake_title">Game Over</string>
+    <string name="the_snake_message">Do you want to play again?</string>
+    <string name="the_snake_pb">Restart</string>
+    <string name="the_snake_nb">Exit</string>
+    <string name="the_snake_time">TIME:</string>
+    <string name="the_snake_best_time">BEST:</string>
+    <string name="the_snake_score">SCORE:</string>
+    <string name="the_snake_best_score">BEST:</string>
+    <string name="the_snake_time_template">%d c</string>
+    <!--CHAT-->
+    <string name="chat_name_label">Name:</string>
+    <string name="chat_message_line1">%s %s</string>
+    <string name="chat_no_author_alert">Fill Author field</string>
+    <string name="chat_no_message_alert">Fill Message field</string>
+
+
+</resources>
