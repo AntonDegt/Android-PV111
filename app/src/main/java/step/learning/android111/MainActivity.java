@@ -22,12 +22,26 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        findViewById( R.id.main_button_game_tic_tac_toe )
+                .setOnClickListener( this::onGameTicTacToeButtonClick ) ;
         findViewById( R.id.main_button_calc )
                 .setOnClickListener( this::onCalcButtonClick ) ;
         findViewById( R.id.main_button_game )
                 .setOnClickListener( this::onGameButtonClick ) ;
+        findViewById( R.id.main_button_rates )
+                .setOnClickListener( this::onRatesButtonClick ) ;
+        findViewById( R.id.main_button_chat )
+                .setOnClickListener( this::onChatButtonClick ) ;
+        findViewById( R.id.main_button_anim )
+                .setOnClickListener( this::onAnimButtonClick ) ;
     }
 
+    private void onGameTicTacToeButtonClick( View view ) {
+        Intent intent = new Intent(
+                this.getApplicationContext(),
+                GameTicTacToeActivity.class ) ;
+        startActivity( intent ) ;
+    }
     private void onCalcButtonClick( View view ) {
         Intent intent = new Intent(
                 this.getApplicationContext(),
@@ -38,6 +52,24 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(
                 this.getApplicationContext(),
                 GameActivity.class ) ;
+        startActivity( intent ) ;
+    }
+    private void onRatesButtonClick( View view ) {
+        Intent intent = new Intent(
+                this.getApplicationContext(),
+                RatesActivity.class ) ;
+        startActivity( intent ) ;
+    }
+    private void onChatButtonClick( View view ) {
+        Intent intent = new Intent(
+                this.getApplicationContext(),
+                ChatActivity.class ) ;
+        startActivity( intent ) ;
+    }
+    private void onAnimButtonClick( View view ) {
+        Intent intent = new Intent(
+                this.getApplicationContext(),
+                AnimActivity.class ) ;
         startActivity( intent ) ;
     }
 }
