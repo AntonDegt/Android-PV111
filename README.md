@@ -34,15 +34,43 @@
 
 # HomeWork #6 05.04
 Реалізувати у грі "хрестики-нолики" повідомлення (Alert Dialogs) про переможців та про продовження гри якщо активність стає на паузу, то зберігати поточний стан гри, а при відновленні активності - повертати його.
-
 Якщо стартує нова гра при наявності збереженої старої, то видавати повідомлення: продовжити стару / почати нову.
-<a href="">****</a>
+<a href="https://github.com/AntonDegt/Android-PV111/blob/48a3b73638cae71e921a3a840eda6e3c6b5c4687/app/src/main/java/step/learning/pvapp/TttActivity.java#L154">**AlterDialog.Builder**</a>
 
 
 
-# HomeWork #7 08.03
-
-<a href="">****</a>
-
+# HomeWork #7 08.04
+Реалізувати відображення курсів валют у стилі "чат" - одні по лівому, інші по правому краю. Змінюються кути форми та її колір.
 
 
+
+# HomeWork #8 10.04
+Реалізувати випадковий перший хід (хрестики або ноліки) через запит випадкового числа з незалежного постачальника на кшталт random.org
+<a href="https://github.com/AntonDegt/Android-PV111/blob/48a3b73638cae71e921a3a840eda6e3c6b5c4687/app/src/main/java/step/learning/pvapp/TttActivity.java#L112">**RandomFirstTurn**</a>
+
+
+
+# HomeWork #9 12.04
+Реалізувати випадковий перший хід (хрестики або ноліки) через запит випадкового числа з незалежного постачальника на кшталт random.org
+<a href="https://github.com/AntonDegt/Android-PV111/blob/48a3b73638cae71e921a3a840eda6e3c6b5c4687/app/src/main/java/step/learning/pvapp/TttActivity.java#L112">**RandomFirstTurn**</a>
+
+
+
+# HomeWork #10 15.04
+Реалізувати надсилання повідомлення про виграш у чат. Після виграшу з'являється (серед іншого) кнопка "поділитись", натиск на яку надсилає до чату повідомлення "Я виграв у ХО" та переходить на активність чату
+<a href="https://github.com/AntonDegt/Android-PV111/blob/48a3b73638cae71e921a3a840eda6e3c6b5c4687/app/src/main/java/step/learning/pvapp/TttActivity.java#L142">**TttActivity.java#L142 isEnd**</a>
+
+
+
+# HomeWork #11 17.04
+(хрестики або ноліки) Реалізувати анімації
+- поява нових знаків (альфа)
+- зникнення при скасуванні
+- масштаб по лінії виграшу
+<a href="https://github.com/AntonDegt/Android-PV111/tree/48a3b73638cae71e921a3a840eda6e3c6b5c4687/app/src/main/res/anim">**Anims**</a>
+
+
+
+# HomeWork #12 19.04
+Прикласти посилання на репозиторій з підсумковим проєктом
+<a href="github.com/AntonDegt/Android-PV111">**GitHub**</a>
